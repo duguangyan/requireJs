@@ -3,7 +3,11 @@ li,ol{list-style-type: none;}
 .top{width: 100%; height: 50px;position: fixed; top: 0;}
 .top ul{width: 100%;}
 .top ul li { text-align: center;color: #ffffff; cursor: pointer; line-height: 50px; float: left;width: 20%; height: 50px; background-color: #999999;}
-.top ul li:hover{background-color: #d5d5d5;}
+/*.top ul li:hover{background-color: red;}*/
 .content{width: 100%; height:500px ;margin-top: 50px; background-color: #d5d5d5;}
 .footer{text-align: center;line-height: 100px;color: #FFFFFF; width: 100%;height: 100px;background-color: #999999;}
-.active{background-color: darkred;}
+.active{background-color: red;}
+.content table{width: 1000px; margin: 0 auto;position: relative;top: 20px;}
+.content table tr{width: 100%;}
+.content table{ border: none;border-collapse: collapse;}
+.content table tr td,.content table tr th{ border: 1px solid #FFFFFF;text-align: center; height: 40px;}

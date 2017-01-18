@@ -4,11 +4,17 @@
 	<meta charset="UTF-8" />
 	<title>requireJs</title>
 	<link rel="stylesheet" type="text/css" href="css/common.css"/>
-	<script src="js/require.js" data-main="js/main"></script>
+
 </head>
     <body>
-      <div class="top"></div>
-      <div class="content"></div>
+      <div class="top" id="top"></div>
+      <div class="content">
+      	<table>
+      		<tr><th>姓名</th><th>年龄</th><th>简介</th></tr>
+      		<tr v-for="item in items"><td>{{ item.name }}</td><td>{{item.title}}</td><td>{{item.content}}</td></tr>
+      	</table>
+      </div>
       <div class="footer"></div>
+	<script src="js/require.js" data-main="js/main"></script>
     </body>
 </html>
